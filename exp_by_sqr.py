@@ -14,7 +14,7 @@ def mod_exp(a, m, c):
         m //= 2
         b *= b
         b %= c
-        print(f"{counter}) b = {b}, m = {m}, res = {res}")
+        print(f"{counter})b = {b}, m = {m}, res = {res}")
         counter += 1
 
     return res
